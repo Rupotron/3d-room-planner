@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDrag } from "@use-gesture/react";
 import { useThree } from "@react-three/fiber";
-import { Html } from "@react-three/drei";  // ✅ Import Html for UI inside 3D scene
+import { Html } from "@react-three/drei";  
 
 function Furniture({ type, dimensions, position, setPosition, setIsDragging, roomDimensions }) {
   const { size, viewport } = useThree();
